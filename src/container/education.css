@@ -1,0 +1,62 @@
+.education{
+    justify-content: space-between;
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+
+}
+
+
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: rgb(245, 216, 216);
+  }
+.education h2{
+    color: aliceblue;
+}
+.education p{
+    color: azure;
+}
+.clg_education{
+   
+    border-style: ridge;
+    padding: 4px;
+    width: 30vw;
+    border-radius: 20px;
+    margin-top: 5vw;
+}
+.clg_education:hover{
+    scale: 1.1;
+    box-shadow: azure;
+}
+.xii_education{
+    
+    border-style: ridge;
+    padding: 4px;
+    width: 30vw;
+    border-radius: 20px;
+    margin-top: 5vw;
+    text-align: center;
+
+}
+.xii_education:hover{
+    scale: 1.1;
+    box-shadow: azure;
+}
+.x_education{
+    
+    border-style: ridge;
+    padding: 4px;
+    width: 30vw;
+    border-radius: 20px;
+    margin-top: 5vw;
+    text-align: center;
+}
+.x_education:hover{
+    scale: 1.1;
+    box-shadow: azure;
+}

@@ -1,0 +1,91 @@
+.skills{
+  padding: 2rem;
+  animation: slide-up 1s ease-out;
+  height: 120vw;
+}
+.skills h1{
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+}
+.skills1{
+    width: 500px;
+    height: 100px;
+    margin: 5px;
+    padding: 3px;
+    color: aliceblue;
+    display: flex;
+    gap: 30px;
+
+  }
+  .skills_icon img{
+    width: 150px;
+    height: 160px;
+    padding: 25px;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: antiquewhite;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+  }
+  .skills_icon img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(8px 8px 10px rgb(155, 188, 232));
+  }
+  .skills_logo img{
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10%;
+    
+  }
+  .skills_logo img:hover{
+    filter: drop-shadow(8px 8px 10px rgb(233, 115, 207));
+    transform: scale(1.2) ;
+  }
+  
+  
+  
+  
+
+  .gap{
+    height: 100px;
+  }
+  .h2{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  .Lg{
+    display: flex;
+  }
+ .intranship{
+  text-align: center;
+  background-color: aliceblue;
+  border: 4px, solid;
+  padding: 0;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius:30px ;
+  margin-left: 200px;
+ }
+ .intranship img{
+  border-top-right-radius: 30px;
+  border-bottom-left-radius:30px ;
+ }
+ .intranship2{
+  text-align: center;
+  background-color: aliceblue;
+  border: 4px, solid;
+  padding: 0;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius:30px ;
+  margin-left: 200px;
+ }
+ .intranship2 img{
+  border-top-right-radius: 30px;
+  border-bottom-left-radius:30px ;
+  height: 16vw;
+  padding: 2px;
+ }

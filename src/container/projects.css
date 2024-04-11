@@ -1,0 +1,62 @@
+.projects__div{
+    color: rgb(233, 237, 240);
+    
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    gap: 40px;
+    border-radius: 20%;
+    
+    height: 100vw;
+    animation: slide-up 1s ease-out;
+    
+
+   
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Projects__element{
+    
+    border-style: inset;
+    padding: 4px;
+    width:90vw;
+    border-radius: 20px;
+    margin-top: 5vw;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    
+
+    
+
+}
+.myDIV{
+  margin: 5px;
+}
+
+.myDIV:hover + .hide {
+    display: block;
+    color: rgb(214, 88, 88);
+  }
+  .hide{
+    display: none;
+  }
+  .music img{
+    border-radius: 50px;
+  }
+  .btn1{
+    border-style: double;
+    padding: 7px;
+    margin: 14px;
+    border-radius: 20px;
+    background-color: rgb(231, 144, 82);
+    margin-left: 10px;
+    box-sizing: border-box;
+    
+    
+  }
+

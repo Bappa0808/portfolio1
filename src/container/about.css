@@ -1,0 +1,31 @@
+p{
+    color: white;
+}
+.about__me{
+    
+        padding: 8px 0;
+        height: 23vw;
+        text-align: center;
+        animation: slide-up 1s ease-out;
+        width: 60vw;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 18vw;
+       font-family: Serif;
+      
+}
+.certificate{
+    display: flex;
+    color: rgb(83, 145, 199);
+    background-color: rgb(51, 112, 165);
+    height: fit-content;
+}
+.achivments{
+     height: 20vw;
+     width: 50vw;
+     justify-content: space-between;
+     box-sizing: border-box;
+     border-style: double;
+     padding: 10px;
+     border-spacing: 6px;
+}

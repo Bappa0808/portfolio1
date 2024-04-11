@@ -1,0 +1,15 @@
+.DownloadCv{
+    height: 120vw;
+    animation: slide-up 1s ease-out;
+}
+.btn1{
+    color: aliceblue;
+    border-style: ridge;
+    margin-left: 40vw;
+}
+.resume{
+    padding: 10px;
+    margin: 8px;
+    margin-left: 23vw;
+    
+}

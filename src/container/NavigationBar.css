@@ -1,0 +1,32 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(10, 19, 43);
+  text-decoration: none;
+}
+.Navbar__items { 
+  display: flex;
+  padding: 0.5rem;
+}
+.Navbar__items li{
+  margin: 5px;
+  margin-left: 4vw;
+  
+}
+nav li{
+  list-style: none;
+  padding: 5px;
+}
+nav li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5 rem;
+  margin: 0,0.5 rem;
+  border-radius: 0.5 rem;
+}
+.active{
+  background-color: #1d4ed8;
+  border-radius: 5px;
+}

@@ -1,0 +1,193 @@
+header {
+    background-size: cover;
+    height: 500px;
+    width: 700px;
+    color: #fff;
+    text-align: center;
+    animation: fade-in 1s ease-out;
+    width: min(100%,1400px);
+    flex: 1 0 14px;
+  }
+  
+  .header-text {
+    color: rgb(247, 243, 243);
+    margin-left: 0;
+    margin-top: 8rem;
+  
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  .button{
+    padding: 10px;
+    margin-top: 100px;
+    
+  }
+  .h1_header_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 200px;
+    font-size: 76px;
+    position: relative;
+    text-align: left;
+    color: rgba(77, 146, 160, 0);
+    -webkit-text-stroke:0.1vw #8e919bf2;
+    text-transform: uppercase;
+  }
+  .h1_header_text::before 
+  {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 0;
+    height: 100%;
+    color: #01fe87;
+    -webkit-text-stroke: 0vw #18bd62;
+    border-right: 4px solid #01fe87;
+    overflow: hidden;
+    animation: animate 7s infinite;
+   
+  }
+  @keyframes animate{
+    0%,10%,100%{
+      width: 0%;
+    }
+    
+    70%,90%,100% {
+      width: 100%;
+    }
+  }
+
+  .header-pic{
+    display: flex;
+   
+    
+  }
+  .p{
+    margin-top: 100px;
+  }
+  
+  .intropic{
+    cursor: pointer;
+    
+   
+  }
+  .intropic{
+    padding: 10px;
+    margin: 5px;
+    
+  }
+  .intropic :hover{
+    
+    transform: scale(1.1);
+  }
+
+   
+  .links{
+    display: flex;
+    margin-left: 64vw;
+    cursor: pointer;
+  }
+  .fb{
+    cursor: pointer;
+  }
+  .links img{
+    margin-left: 10px;
+    padding: 2px;
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+  }
+  .links img:hover{
+      filter: drop-shadow(40px 25px 30px rgb(12, 75, 147));
+      transform: scale(1.7);
+    
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: 18px;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #c0cd30;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #e7d9d9;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #bdb1b1;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #056309;
+   }
