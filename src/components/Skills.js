@@ -19,59 +19,48 @@ import json from '../assets/json.jpg';
 import linux from '../assets/linux.png';
 import sql from '../assets/sql.png';
 
+const Skills = () => {
+  return (
+    <section className="skills">
+      <h1>Skills</h1>
+      <div className="skills_icon">
+        <img src={c} alt="c" />
+        <img src={cpp} alt="cpp" />
+        <img src={dsa} alt="dsa" />
+        <img src={html} alt="html" />
+        <img src={css} alt="css" />
+        <img src={js} alt="js" />
+        <img src={react} alt="react" />
+        <img src={node} alt="node" />
+        <img src={express} alt="express" />
+        <img src={mongo} alt="mongo" />
+        <img src={python} alt="python" />
+        <img src={sql} alt="slq" />
+        <img src={java} alt="java" />
+        <img src={json} alt="json" />
+        <img src={linux} alt="linux" />
+      </div>
 
+      <div className="gap"></div>
 
+      <h2 className="h2">Experience</h2>
+      <div className="Lg">
+        <div className="Lg1">
+          <img src={lboy} alt="lboy" />
+        </div>
+        <div className="intranship">
+          <h3>Internship</h3>
+          <p>Getting placed in Persistent Martian Program</p>
+          <img src={persistent} alt="persistent" />
+        </div>
+        <div className="intranship2">
+          <h3>Internship</h3>
+          <p>AWS Cloud Virtual Internship</p>
+          <img src={aws} alt="aws" />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-
-
- const Skills =() => {
-    return (
-        <section className="skills">
-            <h1>Skills</h1>
-            <div className="skills_icon">
-            <img src={c} alt="c" />
-            <img src={cpp} alt="cpp" width={40}/>
-            <img src={dsa} alt="dsa" width={57}/>
-            <img src={html} alt="html" width={50}/>
-            <img src={css} alt="css" width={40}/>
-            <img src={js} alt="js" width={40}/>
-            <img src={react} alt="react"width={50}/>
-            <img src={node} alt="node" width={50} />
-            <img src={express} alt="express" width={50}/>
-            <img src={mongo} alt="mongo"width={50}/>
-            <img src={python} alt="python"width={50}/>
-            <img src={sql} alt="slq" width={50}/>
-            <img src={java} alt="java" width={50}/>
-            <img src={json} alt="json" width={50}/>
-            <img src={linux} alt="linux" width={50}/>
-            
-
-
-            </div>
-
-            <div className="gap"></div>
-           
-           <h2 className="h2">experience</h2>
-           <div className="Lg">
-            <div>
-            <img src={lboy} alt="lboy"width={350}/>
-
-            </div>
-            <div className="intranship">
-                <h3>internship</h3>
-                <p>getting palced in Persistent martian program</p>
-                <img src={persistent} alt="persistent"width={305}/>
-            
-           </div>
-           <div className="intranship2">
-                <h3>internship</h3>
-                <p>AWS cloud virtual intrenship</p>
-                <img src={aws} alt="aws"width={280}/>
-            
-           </div>
-           </div>
-        </section>
-    )
- }
-
-    export default Skills;
+export default Skills;

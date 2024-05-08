@@ -33,19 +33,19 @@ const Header = () => {
       </div>
       </div>
       <div className='links'>
-        <div className='fb'>
+        <div className='links_container'>
         <a href={"https://www.facebook.com/bappa.bera.71868"}><img src={facebook} alt="facebook" width={30}/></a>
         </div>
-        <div>
+        <div className='links_container'>
         <a href={"https://www.instagram.com/bappa_0808/"}><img src={insta} alt="insta" width={30}/></a>
         </div>
-        <div>
+        <div className='links_container'>
         <a href={"https://twitter.com/bappa_lifeline"}><img src={twitter} alt="twitter" width={30}/></a>
         </div>
-        <div>
+        <div className='links_container'>
         <a href={"https://www.linkedin.com/in/bappa0808/"}><img src={linkedin} alt="linkedin" width={30}/></a>
         </div>
-        <div>
+        <div className='links_container'>
         <a href={"https://github.com/Bappa0808"}><img src={github} alt="github" width={30}/></a>
         </div>
       </div>

@@ -1,5 +1,8 @@
 import React from 'react';
 import '../container/about.css';
+import python_ibm from '../assets/python_ibm.png'
+import  google from '../assets/google.jpeg'
+import microsoft from '../assets/microsoft.png'
 function About() {
 return(
     <section>
@@ -17,15 +20,46 @@ Feel free to explore my portfolio to get a glimpse of my projects and skills. If
 
 </p>
         </div>
-        <h2>certificate</h2>
+        <h2 className='certificate1'>certificate</h2>
         <div className='certificate'>
             
-        <div className='achivments'>1</div>
-            <div className='achivments'>2</div>
-            <div className='achivments'>3</div>
-            <div className='achivments'>4</div>
-            <div className='achivments'>5</div>
-            <div className='achivments'>6</div>
+            <div className='achivments'>
+            <img src={google} width={160} alt="google" />
+            <p>
+            Completed by Bappa Bera
+March 28, 2023
+
+3 hours (approximately)
+
+Bappa Bera's account is verified. Coursera certifies their successful completion of Preparing for Your Professional Cloud Security Engineer Journey
+            </p>
+            
+            </div>
+            <div className='achivments'>
+            <img src={python_ibm} width={160} alt="python_ibm" />
+            <p>
+            Data Analysis Using Python
+Issued by IBM
+This badge earner understands the essential steps necessary to analyze data in Python using multi-dimensional arrays, manipulating DataFrames in pandas, using SciPy library of mathematical routines and performing machine learning using scikit-learn. This includes hands-on demonstration using Jupyter notebook in JupyterLab Python tools.
+            </p>
+            </div>
+            <div className='achivments'>
+            <img src={microsoft} width={160} alt="microsoft" />
+            <p>
+            This certificate is presented to:
+
+Bappa Bera
+
+In recognition of your attendance and completion of the Microsoft Learn
+Student Ambassadors Cloud Skill Challenge on
+Microsoft Azure Fundamentals Challenge.
+
+Host & Co-Host:
+RISHAV KUCHIYA & PARVI GUPTA
+Microsoft Learn Student Ambassadors
+            </p>
+            </div>
+            
             
         </div>
 

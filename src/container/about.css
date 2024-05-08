@@ -1,31 +1,104 @@
-p{
+p {
     color: white;
-}
-.about__me{
-    
-        padding: 8px 0;
-        height: 23vw;
-        text-align: center;
-        animation: slide-up 1s ease-out;
-        width: 60vw;
-        margin: 10px;
-        padding: 10px;
-        margin-left: 18vw;
-       font-family: Serif;
-      
-}
-.certificate{
+  }
+  
+  .about__me {
+    padding: 8px 0;
+    height: 20vw;
+    text-align: center;
+    animation: slide-up 1s ease-out;
+    width: 60vw;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10vw;
+    font-family: Serif;
+    cursor: pointer;
+  }
+  .certificate1{
+    margin-top: 120px;
+  }
+  
+  .certificate {
     display: flex;
     color: rgb(83, 145, 199);
-    background-color: rgb(51, 112, 165);
     height: fit-content;
-}
-.achivments{
-     height: 20vw;
-     width: 50vw;
-     justify-content: space-between;
-     box-sizing: border-box;
-     border-style: double;
-     padding: 10px;
-     border-spacing: 6px;
-}
+    gap: 30px;
+    margin: 20px;
+  }
+  
+  .achivments {
+    width: 40%;
+    margin-top: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-style: double;
+    padding: 10px;
+    border-spacing: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+  }
+  
+  .achivments:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+  }
+  
+  .achivments p {
+    font-size: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .about__me {
+      font-size: 10px;
+      margin-top: 210vw;
+    }
+    .about_me h2,
+    p {
+      text-align: center;
+    }
+    .certificate {
+      margin-top: 30px;
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+      align-items: center;
+    }
+    .certificate1 {
+      margin-top: 70vw;
+    }
+  }
+  
+  /* Media Query for all mobile devices */
+  @media only screen and (max-device-width: 480px) {
+    .about__me {
+      font-size: 10px;
+      margin-top: 400vw;
+    }
+    .about_me h2,
+    p {
+      text-align: center;
+    }
+    .certificate {
+      margin-top: 2vw;
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+      align-items: center;
+      width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    }
+    .achivments{
+        width: 80%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    }
+    .certificate1 {
+      margin-top: 100vw;
+    }
+  }
+  

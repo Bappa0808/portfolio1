@@ -1,0 +1,92 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #message{
+    height: 120px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Query for Tablet Devices */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 15px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      padding: 8px;
+    }
+  
+    button[type="submit"] {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .contact-form {
+      padding: 10px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      padding: 6px;
+    }
+  
+    button[type="submit"] {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  

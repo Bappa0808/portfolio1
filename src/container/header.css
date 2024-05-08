@@ -191,3 +191,52 @@ header {
    button:hover .button-text {
     color: #056309;
    }
+   @media (max-width: 768px){
+    .header-pic{
+      width: max-content;
+      
+    }
+    .h1_header_text{
+      font-size: 20px;
+      margin-left: 10%;
+      margin-top: 0;
+    }
+    .button{
+      width: 40%;
+    }
+    .intropic img{
+      width: 200px;
+      margin-top: 20%;
+    }
+    .links_container img{
+      width: 20px;
+      margin-top: 20%;
+      
+      
+    }
+   }
+   @media (max-width: 540px){
+    .header-pic{
+      width: max-content;
+      
+    }
+    .h1_header_text{
+      font-size: 15px;
+      margin-left: 10%;
+      margin-top: 0;
+    }
+    .button{
+      width: 40%;
+    }
+    .intropic img{
+      width: 150px;
+      margin-top: 50%;
+    }
+    .links_container img{
+      width: 20px;
+      margin-top: 10%;
+      margin-left: 10px;
+      
+      
+    }
+   }

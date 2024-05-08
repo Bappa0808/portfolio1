@@ -1,62 +1,69 @@
-.education{
+.education {
     justify-content: space-between;
     padding: 2rem;
     cursor: pointer;
     display: flex;
-
-}
-
-
-.hide {
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  }
+  
+  .hide {
     display: none;
   }
-      
+  
   .myDIV:hover + .hide {
     display: block;
-    color: rgb(245, 216, 216);
+    color: rgba(245, 216, 216, 0.509);
   }
-.education h2{
+  
+  .education h2 {
     color: aliceblue;
-}
-.education p{
+  }
+  
+  .education p {
     color: azure;
-}
-.clg_education{
-   
-    border-style: ridge;
-    padding: 4px;
-    width: 30vw;
-    border-radius: 20px;
-    margin-top: 5vw;
-}
-.clg_education:hover{
-    scale: 1.1;
-    box-shadow: azure;
-}
-.xii_education{
-    
+  }
+  
+  .clg_education,
+  .xii_education,
+  .x_education {
     border-style: ridge;
     padding: 4px;
     width: 30vw;
     border-radius: 20px;
     margin-top: 5vw;
     text-align: center;
-
-}
-.xii_education:hover{
-    scale: 1.1;
+  }
+  .myDIV img{
+    overflow: hidden;
+  }
+  
+  .clg_education:hover,
+  .xii_education:hover,
+  .x_education:hover {
+    transform: scale(1.1); /* Changed from 'scale' to 'transform' for correct syntax */
     box-shadow: azure;
-}
-.x_education{
-    
-    border-style: ridge;
-    padding: 4px;
-    width: 30vw;
-    border-radius: 20px;
-    margin-top: 5vw;
-    text-align: center;
-}
-.x_education:hover{
-    scale: 1.1;
-    box-shadow: azure;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .clg_education,
+    .xii_education,
+    .x_education {
+      width: 90vw; /* Adjust width for smaller screens */
+      margin-top: 3vw; /* Adjust margin for smaller screens */
+    }
+    .myDIV{
+        display: flex;
+        gap: 3px;
+    }
+    .myDIV img{
+        width: 30%;
+        object-fit: contain;
+    }
+    .myDIV h2{
+        font-size: 10px;
+    }
+    .hide h3{
+        font-size: 6px;
+    }
+  }
+  

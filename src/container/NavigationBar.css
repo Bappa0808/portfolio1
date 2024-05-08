@@ -9,6 +9,9 @@ nav{
   display: flex;
   padding: 0.5rem;
 }
+.Navbar__items ul{
+  display: flex;
+}
 .Navbar__items li{
   margin: 5px;
   margin-left: 4vw;
@@ -29,4 +32,43 @@ nav li a{
 .active{
   background-color: #1d4ed8;
   border-radius: 5px;
+}
+.menu-toggle {
+  display: none; /* Initially hide the button */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: #fff; /* Show the button on smaller screens */
+  }
+
+  .Navbar__items {
+    display: none; /* Hide the menu by default on smaller screens */
+    padding: 0; /* Remove padding to avoid unnecessary space */
+    margin: 0; /* Remove margin to avoid unnecessary space */
+    flex-direction: column; /* Align items vertically */
+  }
+
+  .Navbar__items.show-menu {
+    display: flex; /* Show the menu when the show-menu class is added */
+  }
+
+  /* Additional styling for the mobile menu */
+  .Navbar__items ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding for list items */
+  }
+
+  .Navbar__items li {
+    margin: 5px 0; /* Adjust margin for list items */
+  }
+
+  .Navbar__items li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
 }
